@@ -1,11 +1,11 @@
-# 📈 Chat2Plot - interactive & safe text-to-visualization with LLM
+# 📈 Chat2Plot_plus - interactive & safe text-to-visualization with LLM
 
 This library uses LLMs to generate:
 
 1. Visualization 
 2. High-level chart specifications in json (You can choose between a simple or vega-lite format)
 3. Explanation
-
+增加了代码对于阿里百炼平台的支持
 from natural language requests for given data.
 
 Chat2Plot does not generate executable code or SQL from the LLM, 
