@@ -72,7 +72,7 @@ csv_file = st.file_uploader("Step3: Upload csv file", type={"csv"})
 
 if api_key and csv_file:
     # --- 修改 4: 设置阿里云 API 密钥环境变量 ---
-    os.environ["DASHSCOPE_API_KEY"] = 'sk-06b66008dc7145e2a9cea9c8266f4670'
+    os.environ["DASHSCOPE_API_KEY"] = ''
 
     df = pd.read_csv(csv_file)
 
@@ -276,7 +276,7 @@ csv_file = st.file_uploader("Step3: Upload csv file", type={"csv"})
 
 if api_key and csv_file:
     # --- 修改 4: 设置阿里云 API 密钥环境变量 ---
-    os.environ["DASHSCOPE_API_KEY"] = 'sk-06b66008dc7145e2a9cea9c8266f4670'
+    os.environ["DASHSCOPE_API_KEY"] = ''
 
     df = pd.read_csv(csv_file)
 
